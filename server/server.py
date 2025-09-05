@@ -190,7 +190,6 @@ def main():
     tolerance = config["timesync"].get("tolerance", 2.5)
     debug = config["server"].get("debug", False)
 
-    # Get MKV path from config or ask user
     file_path = config["server"].get("file_path")
     if not file_path or not os.path.isfile(file_path):
         print("[INFO] No valid file in config. Opening file dialog...")
