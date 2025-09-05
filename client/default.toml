@@ -1,0 +1,7 @@
+[syncserver]
+host = ""
+port = 8001
+# debug = true
+
+[mpv]
+url = "http://:/video"
