@@ -17,7 +17,7 @@ class MPVPlayer:
         Initialize MPV player.
 
         Args:
-            url (str): Video URL or file path to play.
+            url (str): Video URL.
         """
         self.url = url
         self.socket_path = self._random_socket_name()
